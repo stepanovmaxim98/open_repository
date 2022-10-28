@@ -40,3 +40,30 @@ for(let i = 2; i <= 10; i++){
         console.log(i);
     }
 }
+
+let i = 2;
+while ( i <= 16){
+    i++;
+    if (i % 2 === 0){
+        continue;
+    }else{
+        console.log(i);
+    }
+}
+const newArr = [];
+
+for (let i = 5; i < 11; i++){
+    newArr[i - 5] = i;
+}
+console.log(newArr); 
+
+const arr = [3, 5, 8, 16, 20, 23, 50];
+const result = [];
+
+for (let i = 0; i < arr.length; i++){
+    result[i] = arr[i];
+}
+console.log(result);
+
+const data = [5, 10, 'Shopping', 20, 'Homework'];
+for( let i = 0; i<data.length; i++);
